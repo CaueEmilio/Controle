@@ -83,7 +83,7 @@ class Sylvester:
             imag = sin(teta)*Wn
             return [complex(real,imag),complex(real,-imag)]
         else: 
-            P = -4/ts
+            P = -zw
             return [complex(P,0)]
   
     
